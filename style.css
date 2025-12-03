@@ -1,0 +1,159 @@
+.header_css{
+    background-color: blue;
+}
+
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    font-size: 48px;
+    color: white;
+
+}
+
+.e{
+    color: yellow;
+}
+
+.all_page{
+    display: flex;
+    gap: 10px;
+}
+
+.all_page li {
+    list-style: none;
+}
+.all_page li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.loginButton{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.loginButton a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.buttonleft{
+    margin-left: 24px;
+    color: rgb(255, 255, 255);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: linear-gradient(to bottom, #e5990b, #ec8405);
+    border: none;
+    border-radius: 100px;
+} 
+
+.lockImage{
+    margin-right: 8px;
+
+}
+
+.LockLogin
+{
+    display: flex;
+    align-items: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/* hero  */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+    background: #6176F7;
+    color: rgb(255, 255, 255);
+}
+
+.hero-text h5{
+   color: #d4aa5a;
+}
+.hero-text h1 {
+    font-size: 42px;
+    margin: 20px 0;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    background: white;
+    padding: 5px;
+    border-radius: 30px;
+    width: 350px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.search-box button {
+    background: #ff9f29;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-image img {
+    width: 350px;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 70px;
+    background: #F1F2F8;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.icon {
+    font-size: 28px;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.green { background: #1ba049; }
+.purple { background: #6a36b2; }
+.red { background: #bc0b0b; }
+.blue { background: #0b3b8e; }
