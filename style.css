@@ -165,16 +165,4 @@
 .red { background: #bc0b0b; }
 .blue { background: #0b3b8e; }
 
-/* bootstrap  */
 
-.card h4{
-    padding: 20px 50px;
-    font-size: 50px;
-
-}
-.card h2{
-    padding: 0px 50px 40px 50px;
-    font-size: 24px;
-    
-
-}
