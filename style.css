@@ -17,13 +17,15 @@
 
 }
 
+
+
 .e{
     color: yellow;
 }
 
 .all_page{
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 
 .all_page li {
@@ -32,7 +34,7 @@
 .all_page li a{
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .loginButton{
@@ -73,13 +75,7 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-.pt-serif-bold-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
 
 
 /* hero  */
@@ -92,23 +88,24 @@
 }
 
 .hero-text h5{
-   color: #d4aa5a;
+   color: #eed390;
 }
 .hero-text h1 {
-    font-size: 42px;
+    font-size: 50px;
     margin: 20px 0;
 }
 
 .hero-text p {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
+    font-size: 20px;
 }
 
 .search-box {
     display: flex;
     background: white;
-    padding: 5px;
+    padding: 8px;
     border-radius: 30px;
-    width: 350px;
+    width: 400px;
 }
 
 .search-box input {
@@ -129,14 +126,16 @@
 }
 
 .hero-image img {
-    width: 350px;
+
+    width: 450px;
+   
 }
 
 /* STATS */
 .stats {
     display: flex;
     justify-content: space-around;
-    padding: 40px 70px;
+    padding: 30px 70px;
     background: #F1F2F8;
     margin-top: -20px;
     border-radius: 20px;
@@ -153,7 +152,29 @@
     margin-bottom: 10px;
 }
 
+.stats h3 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+.stats p {
+    color: #000000;
+    font-size: 24px;
+}
 .green { background: #1ba049; }
 .purple { background: #6a36b2; }
 .red { background: #bc0b0b; }
 .blue { background: #0b3b8e; }
+
+/* bootstrap  */
+
+.card h4{
+    padding: 20px 50px;
+    font-size: 50px;
+
+}
+.card h2{
+    padding: 0px 50px 40px 50px;
+    font-size: 24px;
+    
+
+}
